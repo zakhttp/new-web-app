@@ -8,7 +8,7 @@ mkdir images;
 echo "Creating js folder";
 mkdir js;
 echo "creating app.js file"
-mkdir js/app.js;
+touch js/app.js;
 echo "Creating css folder";
 mkdir css;
 echo "Creating master.css file";
