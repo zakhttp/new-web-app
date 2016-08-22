@@ -1,3 +1,8 @@
+echo "What name would you give to your project?";
+read projectName;
+echo "Creating the project root folder";
+mkdir $projectName;
+cd $projectName;
 echo "Creating images folder";
 mkdir images;
 echo "Creating js folder";
@@ -14,4 +19,3 @@ echo "Creating .gitignore file";
 echo ".DS_Store" >> .gitignore;
 echo "Intitilizing the git repository";
 git init;
-
