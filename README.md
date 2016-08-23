@@ -10,8 +10,9 @@ This script creates a web app empty directory with the following structure:
 |      |--master.css
 |    |--images
 |    |--index.html
+|    |--README.md
+|    |--LICENCE
 |    |--.gitignore
-|    |--.git
 ```
 
 The script initializes a git repository and creates a '.gitignore' file.
